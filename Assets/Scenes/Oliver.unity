@@ -742,8 +742,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pools:
   - tag: Mushroom
-    prefab: {fileID: 1910876419861040313, guid: f8944b0e9a1e9524386b0e41d0ee11a0, type: 3}
-    size: 5
+    prefab: {fileID: 5440707293445505367, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
+    size: 150
 --- !u!4 &131560305
 Transform:
   m_ObjectHideFlags: 0
