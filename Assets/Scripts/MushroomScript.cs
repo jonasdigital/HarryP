@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MushroomScript : MonoBehaviour
+public class MushroomScript : MonoBehaviour, IPooledObject
 {
     public float upForce = 1f;
     public float sideForce = .1f;
     
     // Start is called before the first frame update
-    void Start()
+    public void OnObjectSpawn()
     {
         float xForce = Random.Range(-sideForce, sideForce);
         float yForce = Random.Range(upForce / 2f, upForce);
