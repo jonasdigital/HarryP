@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartMeny.unity
+    guid: d6cd9da1e31e5ff46a223a60a1ad032f
+  - enabled: 1
+    path: Assets/Scenes/Jonas.unity
+    guid: 172015d475b50c841a2c4a064ad5dcf4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: abc1589a58f89a04b8b90ce0009fdafb, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e8d2c2fc7ed60774287f023f6476e11a, type: 2}
