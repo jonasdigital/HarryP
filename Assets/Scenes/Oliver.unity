@@ -447,10 +447,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9cdade63ea386e47bd6c7788beb9d46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pools:
-  - tag: Bubble
-    prefab: {fileID: 3332056158957271286, guid: 4b865fdd54a3c624f8b3b51bf7046601, type: 3}
-    size: 25
 --- !u!1 &76780788
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,10 +801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bbdedc02767c4e4ea23d50e1be1e5b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pools:
-  - tag: Mushroom
-    prefab: {fileID: 5440707293445505367, guid: 494f6d43e170e9145bc7865d243ee00b, type: 3}
-    size: 100
 --- !u!4 &131560305
 Transform:
   m_ObjectHideFlags: 0
@@ -1380,7 +1372,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06be639f48b67946aab900bd63a4ff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  svampar: {fileID: 289238674}
 --- !u!65 &247728198
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1522,7 +1513,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cc1f3096bff7d14ca32a52d98c31836, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnMushroom: 0
 --- !u!4 &289238675
 Transform:
   m_ObjectHideFlags: 0
@@ -3172,7 +3162,7 @@ GameObject:
   - component: {fileID: 650558669}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Grabbable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
