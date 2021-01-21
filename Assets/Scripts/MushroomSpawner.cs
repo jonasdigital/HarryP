@@ -8,10 +8,19 @@ public class MushroomSpawner : MonoBehaviour
 
     private void Start()
     {
-        objectPooler = ObjectPooler.Instance;
+    objectPooler = ObjectPooler.Instance;
     }
+
+    //private void OnCollisionEnter(Collision collisionInfo)
+    //{
+        //if (collisionInfo.collider.CompareTag("Grabbable"))
+        //{
+            //objectPooler = ObjectPooler.Instance;
+        //}
+    //}
     void FixedUpdate()
     {
         objectPooler.spawnFromPool("Mushroom", transform.position, Quaternion.identity);
     }
 }
+
