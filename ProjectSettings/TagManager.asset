@@ -10,6 +10,7 @@ TagManager:
   - Grabbable
   - Mushroom
   - Bubble
+  - Basket
   layers:
   - Default
   - TransparentFX
