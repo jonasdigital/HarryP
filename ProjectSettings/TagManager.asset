@@ -11,6 +11,10 @@ TagManager:
   - Mushroom
   - Bubble
   - Basket
+  - WitchWater
+  - Cubesik
+  - Cube
+  - Stick
   layers:
   - Default
   - TransparentFX
