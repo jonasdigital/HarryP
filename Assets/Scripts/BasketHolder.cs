@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class BasketHolder : MonoBehaviour
 {
-    public GameObject Mushroom;
+    [SerializeField] private GameObject Mushroom;
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Grabbable")
