@@ -26,6 +26,8 @@ namespace _Project_Zaid.Scripts.Player
         [Space]
         [SerializeField] private List<XRController> _controllers = null;
 
+        public AudioClip walkingAudio;
+
         #endregion
 
 
@@ -103,6 +105,7 @@ namespace _Project_Zaid.Scripts.Player
             if (device.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 position))
             {
                 Move(position);
+                GetComponent<AudioSource>().PlayOneShot(walkingAudio);
             }
         }
         

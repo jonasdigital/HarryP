@@ -3,7 +3,9 @@ guid: 87c381d663cf9974283f3dcd00c058f9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_System: {instanceID: 0}
+  - walkingAudio: {fileID: 8300000, guid: efbbf5a2319e32e4e8609b74a7c007f5, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
