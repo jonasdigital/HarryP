@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class ColliderScript : MonoBehaviour
 {
+
+    public GameObject WinText;
     private bool cube1;
     private bool cube2;
     private bool cube3;
@@ -31,6 +33,7 @@ public class ColliderScript : MonoBehaviour
         {
             //Debug.Log("Enemy and Ground collision");
             svampar.spawnMushroom = true;
+            WinText.SetActive(true);
         }
     }
 }
